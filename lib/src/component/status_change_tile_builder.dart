@@ -21,6 +21,7 @@ class StatusChangeTileBuilder {
       indicatorBuilder: indicatorWidgetBuilder,
       startConnectorBuilder: _createConnectedStartConnectorBuilder(
         connectorBuilder: lineWidgetBuilder,
+        itemCount: itemCount,
       ),
       endConnectorBuilder: _createConnectedEndConnectorBuilder(
         connectorBuilder: lineWidgetBuilder,
